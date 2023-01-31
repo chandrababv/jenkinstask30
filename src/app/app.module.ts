@@ -28,6 +28,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTreeModule} from '@angular/material/tree';
 import { NgxUiLoaderHttpModule, NgxUiLoaderModule } from 'ngx-ui-loader';
+import { ComponentNameComponent } from './component-name/component-name.component';
 
 
 
@@ -41,7 +42,8 @@ import { NgxUiLoaderHttpModule, NgxUiLoaderModule } from 'ngx-ui-loader';
     CreateComponent,
     UpdateComponent,
     SearchComponent,
-    HomeComponent
+    HomeComponent,
+    ComponentNameComponent
   ],
 
   // importing modules 
